@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoxPanel</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>BoxPanel</h1>
+            <nav>
+                <a href="/users">Users</a>
+                <a href="/files">Files</a>
+                <a href="/settings">Settings</a>
+            </nav>
+        </header>
+        <main>
+            <section class="stats">
+                <h2>Server Stats</h2>
+                <div class="stat">
+                    <span class="label">CPU Usage:</span>
+                    <span id="cpu-usage">Loading...</span>
+                </div>
+                <div class="stat">
+                    <span class="label">RAM Usage:</span>
+                    <span id="ram-usage">Loading...</span>
+                </div>
+                <div class="stat">
+                    <span class="label">Storage Usage:</span>
+                    <span id="storage-usage">Loading...</span>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
