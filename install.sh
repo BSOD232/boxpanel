@@ -4,7 +4,7 @@
 echo "Downloading and setting up BoxPanel..."
 
 # Define the repository URL
-REPO_URL="https://github.com/yourusername/boxpanel.git"
+REPO_URL="https://github.com/BSOD232/boxpanel.git"
 INSTALL_DIR="$HOME/boxpanel"
 
 # Check if git is installed
@@ -30,7 +30,7 @@ fi
 if ! command -v node &> /dev/null
 then
     echo "Node.js not found. Installing Node.js..."
-    curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+    curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
     sudo apt-get install -y nodejs
 fi
 
